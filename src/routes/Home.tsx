@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import BackgroundImg from "../components/BackgroundImg/BackgroundImg"
 
 export default function Home(): JSX.Element {
   return (
-    <div>
-      <Navbar/>
-    </div>
+    <BackgroundImg/>
   )
 }
