@@ -6,8 +6,19 @@ import { FaBars, FaTimes } from "react-icons/fa"
 export default function Navbar(): JSX.Element {
   const [click, setClick] = useState(false)
   const handleClick = (): void => setClick(!click)
+  const [color, setColor] = useState(false)
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  function changeColor (): void {
+    if (window.scrollY >= 100) {
+      setColor(true)
+    } else {
+      setColor(false)
+    }
+  }
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>Sabrina Conceição</h1>
       </Link>
