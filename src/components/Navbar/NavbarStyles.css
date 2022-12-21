@@ -32,6 +32,10 @@
   display: none;
 }
 
+.title {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
 @media screen and (max-width: 1040px) {
   .nav-menu {
     flex-direction: column;
