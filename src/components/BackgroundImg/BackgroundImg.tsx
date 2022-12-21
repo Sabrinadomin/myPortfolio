@@ -24,7 +24,7 @@ export default function BackgroundImg(): JSX.Element {
           </div>
           <div>
             <Link to="/projects" className="btn">Projects</Link>
-            <Link to="/contact" className="btn btn-light">Contact</Link>
+            <Link to="/about" className="btn btn-light">About</Link>
           </div>
       </div>
     </div>
