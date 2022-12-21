@@ -44,11 +44,15 @@
 .main .content p {
   font-size: 1.4rem;
   font-weight: 200;
-  text-transform: uppercase;
 } 
 
+.resume p {
+  padding-left: 0%;
+  padding-top: 0%;
+  padding-bottom: 4%;
+}
 .content .btn {
-  margin:  1rem 0.2rem;
+  margin: 1rem 0.2rem;
 }
 
 @media screen and (max-width: 640px) {
@@ -58,5 +62,10 @@
   
   .main .content p {
     font-size: 1.4rem;
-  } 
+    padding: 0.6rem 0 1.5rem;
+  }
+
+  .resume {
+    margin-bottom: 4%;
+  }
 }
