@@ -1,15 +1,12 @@
 import React from "react"
-import "./BackgroundImgStyle.css"
-import mainImg from "../../assets/image-one.jpg"
+import "./HomeBackgroundImgStyle.css"
+import mainImg from "../../../assets/home-background.jpg"
 import { Link } from "react-router-dom"
 const resume = `I'm a graduated technician in analysis and development
- of systems,and I have experience on backend development and maintenance 
- for ChatBots, APIs and websites using Node.js. I'm a proactive person who 
- cherishes freedom of speech in the office, both vertically and horizontally. 
- My English skill is average and so are my JavaScript and Python programming 
- languages.`
+ of systems and I have experience on backend development and maintenance 
+ for ChatBots, APIs and websites using Node.js.`
 
-export default function BackgroundImg(): JSX.Element {
+export default function BackgroundImgHome(): JSX.Element {
   return (
     <div className="main">
       <div className="mask">

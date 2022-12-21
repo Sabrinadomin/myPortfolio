@@ -1,8 +1,8 @@
 import React from 'react'
-import BackgroundImg from "../components/BackgroundImg/BackgroundImg"
+import HomeBackgroundImg from "../components/BackgroundImg/HomeBackground/BackgroundImgHome"
 
 export default function Home(): JSX.Element {
   return (
-    <BackgroundImg/>
+    <HomeBackgroundImg/>
   )
 }
