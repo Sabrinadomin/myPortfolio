@@ -1,23 +1,16 @@
 import React from "react"
 import "./ProjectCardsStyle.css"
-import antidoryVisual from "../../assets/antidory-vis.png"
-import { NavLink } from "react-router-dom"
 
-export default function ProjectCards(): JSX.Element {
+export default function ProjectCards(props: { imgSrc: string, title: string, text: string, access: string, view: string }): JSX.Element {
   return (
-    <div className="card-container">
-      <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
-        <div className="project-card">
-          <img src = {antidoryVisual} alt = "antidory-visualization"></img>
-          <h2 className="project-title">Antidory Bot</h2>
-          <div className="project-detail">
-            <p>A telegram bot made with node.js and mongoDB! Never forget to buy something again. 🐠</p>
-            <div className="project-btns">
-              <NavLink to = "https://t.me/AntidoryBot" className = "btn">Access</NavLink>
-              <NavLink to = "https://t.me/AntidoryBot" className = "btn">Access</NavLink>
-            </div>
-          </div>
+    <div className="project-card">
+      <img src = {props.imgSrc} alt = "Project visualization"></img>
+      <h2 className="project-title">{props.title}</h2>
+      <div className="pro-details">
+        <p>{props.text}</p>
+        <div className="pro-btns">
+          <a href = {props.access} target = "_blank" rel="noreferrer" className = "btn">Access</a>
+          <a href = {props.view} target = "_blank" rel="noreferrer" className = "btn">View</a>
         </div>
       </div>
     </div>
