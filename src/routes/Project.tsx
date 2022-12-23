@@ -1,8 +1,12 @@
 import React from 'react'
-import BackgroundImgProjects from '../components/BackgroundImg/ProjectBackground/BackgroundImgProjects'
+import BackgroundImg from '../components/BackgroundImg/Background/Background'
+import ProjectCards from '../components/ProjectCards/ProjectCards'
 
 export default function Project(): JSX.Element {
   return (
-    <BackgroundImgProjects/>
+    <>
+    <BackgroundImg heading = "PROJECTS_" text = "Some of my projects!" page = ""/>
+    <ProjectCards/>
+    </>
   )
 }
