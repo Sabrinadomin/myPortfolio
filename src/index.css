@@ -24,7 +24,7 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background-color: rgb(118, 120, 230);
+  background-color: rgb(156, 94, 175);
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;
@@ -44,4 +44,8 @@ ul {
 
 a:visited {
   color:#fff
+}
+
+li a:hover, a:hover {
+  color: rgb(156, 94, 175);
 }
