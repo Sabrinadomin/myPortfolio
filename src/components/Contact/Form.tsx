@@ -15,12 +15,13 @@ export default function Form(): JSX.Element {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault()
+    const element = e.target as HTMLFormElement
 
     if (form.current != null) {
-      console.log('passei')
       emailjs.sendForm('service_v2q879k', 'template_otr4ebj', form.current, 'opvtiAC6K9-_-Pyez')
         .then((result) => {
           handleStatus(true)
+          element.reset()
         }, (error) => {
           console.log(error.text)
           handleStatus(false)
