@@ -22,7 +22,7 @@ export default function Navbar(): JSX.Element {
       <Link to="/">
         <h1 className="title">Sabrina Conceição_</h1>
       </Link>
-      <ul className = { click ? "nav-menu active" : "nav-menu"}>
+      <ul className = { click ? "nav-menu active" : "nav-menu"} onClick={handleClick}>
         <li>
           <Link to="/" >Home</Link>
           <Link to="/about" >About</Link>
