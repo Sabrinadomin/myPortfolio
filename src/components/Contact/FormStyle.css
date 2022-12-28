@@ -19,3 +19,18 @@ form input, form textarea {
   border-color: rgba(255, 255, 255, 0.1);
   color: #f4f4f4;
 }
+
+.email-status {
+  text-align: center;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+  color: rgb(31, 150, 61);
+  font-size: 1.5rem;
+}
+
+.fail {
+  text-align: center;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+  color: #bd1212
+}
