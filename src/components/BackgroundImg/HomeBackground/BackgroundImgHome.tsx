@@ -1,6 +1,6 @@
 import React from "react"
 import "./HomeBackgroundImgStyle.css"
-import mainImg from "../../../assets/home-background.jpg"
+import mainImg from "../../../assets/Background/home-background.jpg"
 import { Link } from "react-router-dom"
 const resume = `I'm a graduated technician in analysis and development
  of systems and I have experience on backend development and maintenance 

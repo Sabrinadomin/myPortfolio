@@ -1,6 +1,6 @@
-import antidoryVis from '../../assets/antidory-vis.png'
-import timerVis from '../../assets/timer-vis.png'
-import portfolioVis from '../../assets/portfolio-vis.png'
+import antidoryVis from '../../assets/Projects/antidory-vis.png'
+import timerVis from '../../assets/Projects/timer-vis.png'
+import portfolioVis from '../../assets/Projects/portfolio-vis.png'
 
 const ProjectCardData: Array<{ imgSrc: any, title: string, text: string, view: string, access: string }> = [
   {
