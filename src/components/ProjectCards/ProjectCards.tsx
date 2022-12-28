@@ -9,8 +9,8 @@ export default function ProjectCards(props: { imgSrc: string, title: string, tex
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <a href = {props.access} target = "_blank" rel="noreferrer" className = "btn">Access</a>
-          <a href = {props.view} target = "_blank" rel="noreferrer" className = "btn">View</a>
+          { props.access !== '' ? <a href = {props.access} target = "_blank" rel="noreferrer" className = "btn">Access</a> : '' }
+          { props.view !== '' ? <a href = {props.view} target = "_blank" rel="noreferrer" className = "btn">View</a> : '' }
         </div>
       </div>
     </div>
