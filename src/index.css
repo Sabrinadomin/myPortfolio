@@ -49,3 +49,13 @@ a:visited {
 li a:hover, a:hover {
   color: rgb(156, 94, 175);
 }
+
+/* .blink {
+  animation: blinker 0.3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+} */
