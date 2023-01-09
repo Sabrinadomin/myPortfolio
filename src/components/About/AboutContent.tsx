@@ -6,7 +6,7 @@ export default function AboutContent(): JSX.Element {
     <div className="about-me" >
       <h1 className="title">Who am I?</h1>
       <p>
-        &emsp;&emsp;{`I was born in Osasco-SP and grew up in a dormitory town, but fate brought me to Curitiba-PR. My parents are farmers/flower growers. I've always been fascinated by computers,
+        &emsp;&emsp;{`I was born in Osasco-SP and grew up in a dormitory town, Cotia-SP, where my parents are farmers/flower growers, but fate brought me to Curitiba-PR back in 2021. I've always been fascinated by computers,
         and this fascination of mine made me choose a degree in the area, even with all the insecurity I felt. The result? I love the development area!
         Some of my hobbies are playing, drawing and planting. Oh! And I love cats!`}
       </p>

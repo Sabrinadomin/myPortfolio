@@ -6,7 +6,6 @@ import ibmCloud from "../../assets/Icons/ibm-cloud.png"
 import sql from "../../assets/Icons/sql.png"
 import powerP from "../../assets/Icons/power-point.png"
 import linux from "../../assets/Icons/linux.png"
-import access from "../../assets/Icons/access.png"
 import mongoDb from "../../assets/Icons/mongo.png"
 import excel from "../../assets/Icons/excel.png"
 import azure from "../../assets/Icons/azure-devops.png"
@@ -45,7 +44,6 @@ export default function HardSkill(): JSX.Element {
       <img className = "grid-img" src = {typescript}/>
       <img className = "grid-img" src = {reactIcon}/>
       <img className = "grid-img" src = {python}/>
-      <img className = "grid-img" src = {docker}/>
       <img className = "grid-img" src = {azure}/>
       <img className = "grid-img" src = {netlify}/>
       <img className = "grid-img" src = {css}/>
@@ -65,7 +63,6 @@ export default function HardSkill(): JSX.Element {
       <img className = "grid-img" src = {ibmCloud}/>
       <img className = "grid-img" src = {c}/>
       <img className = "grid-img" src = {linux}/>
-      <img className = "grid-img" src = {access}/>
     </div>
   </>
   )

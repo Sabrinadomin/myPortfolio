@@ -1,0 +1,14 @@
+.not-found img{
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .not-found img{
+    margin-top: 4rem;
+    width: 100%;
+    position: relative;
+    align-items: center;
+  }
+}
