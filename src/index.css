@@ -50,6 +50,10 @@ li a:hover, a:hover {
   color: rgb(156, 94, 175);
 }
 
+a, h1, h2, h3, h4, p, button, input, label, textarea, .load-animation {
+  animation: transitionIn 0.75s;
+}
+
 /* .blink {
   animation: blinker 0.3s linear infinite;
 }
@@ -59,3 +63,13 @@ li a:hover, a:hover {
     opacity: 0;
   }
 } */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

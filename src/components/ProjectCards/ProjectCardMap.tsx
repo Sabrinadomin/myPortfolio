@@ -7,7 +7,7 @@ export default function Card(): JSX.Element {
   return (
     <div className="work-container">
       <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
+      <div className="project-container load-animation">
         {ProjectCardData.map((val, ind) => {
           return (
             <ProjectCards
