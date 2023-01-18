@@ -57,10 +57,10 @@ export default function Form(): JSX.Element {
     }
   }
 
-  const valueHandler = (e: any): void => {
+  const valueHandler = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
     setContactInfo({
       ...contactInfo,
-      [e.currentTarget.name]: e.currentTarget.value
+      [e.currentTarget.name]: e.currentTarget.value.replace(/\r?\n|\r/g, ' ')
     })
   }
 
