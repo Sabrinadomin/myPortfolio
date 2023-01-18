@@ -13,9 +13,10 @@ const ProjectCardData: Array<{ imgSrc: any, title: string, text: string, view: s
   {
     imgSrc: antidoryVis,
     title: "Antidory Bot",
-    text: "A telegram bot made with node.js and mongoDB!",
+    text: "A telegram bot made with Node.js and mongoDB!",
     view: "https://github.com/Sabrinadomin/antidory",
-    access: "https://t.me/AntidoryBot"
+    // access: "https://t.me/AntidoryBot"
+    access: ""
   },
   {
     imgSrc: timerVis,

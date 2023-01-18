@@ -42,8 +42,8 @@ ul {
   transition: 0.3s;
 }
 
-a:visited {
-  color:#fff
+a:visited btn{
+  color: #fff;
 }
 
 li a:hover, a:hover {
