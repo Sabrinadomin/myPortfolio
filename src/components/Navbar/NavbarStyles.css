@@ -10,12 +10,10 @@
 }
 
 .nav {
-  transition-timing-function: ease-in;
   transition: 0.5s;
 }
 
 .nav-hidden {
-  transition-timing-function: ease-out;
   transition: 0.5s;
   transform: translateY(-150px);
 }
