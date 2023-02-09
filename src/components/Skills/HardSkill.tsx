@@ -31,9 +31,10 @@ export default function HardSkill(): JSX.Element {
     <h1 className="title">My Skills</h1>
     <h3 className='level'>Advanced</h3>
     <div className='img-grid'>
-      <img className = "grid-img" src = {git}/>
-      <img className = "grid-img" src = {javascript}/>
       <img className = "grid-img" src = {node}/>
+      <img className = "grid-img" src = {javascript}/>
+      <img className = "grid-img" src = {typescript}/>
+      <img className = "grid-img" src = {git}/>
       <img className = "grid-img" src = {sql}/>
       <img className = "grid-img" src = {html}/>
       <img className = "grid-img" src = {word}/>
@@ -41,7 +42,6 @@ export default function HardSkill(): JSX.Element {
 
     <h3 className='level'>Average</h3>
     <div className='img-grid'>
-      <img className = "grid-img" src = {typescript}/>
       <img className = "grid-img" src = {reactIcon}/>
       <img className = "grid-img" src = {python}/>
       <img className = "grid-img" src = {azure}/>
