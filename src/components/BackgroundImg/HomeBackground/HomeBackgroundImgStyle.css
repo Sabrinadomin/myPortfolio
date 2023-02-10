@@ -1,7 +1,6 @@
 .mask {
   width: 100%;
   height: 100vh;
-  /* position: relative; */
 }
 
 .background-img {
@@ -56,6 +55,10 @@
 }
 
 @media screen and (max-width: 640px) {
+  .mask {
+    position: relative;
+  }
+  
   .main .content h1 {
     font-size: 3rem;
   }
