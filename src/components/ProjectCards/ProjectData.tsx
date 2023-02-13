@@ -7,7 +7,7 @@ const ProjectCardData: Array<{ imgSrc: any, title: string, text: string, view: s
     imgSrc: portfolioVis,
     title: "Personal Portfolio",
     text: "My personal portfolio made with React and TypeScript!",
-    view: "",
+    view: "https://github.com/Sabrinadomin/myPortfolio",
     access: ""
   },
   {
